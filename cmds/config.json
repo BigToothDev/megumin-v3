@@ -1,0 +1,27 @@
+{
+    "cfg": {
+        "intents": [
+            "GUILDS",
+            "GUILD_PRESENCES",
+            "GUILD_MEMBERS",
+            "GUILD_BANS",
+            "GUILD_MESSAGES",
+            "GUILD_MESSAGE_REACTIONS",
+            "DIRECT_MESSAGES",
+            "DIRECT_MESSAGE_REACTIONS"
+        ],
+        "prfx": [".", "!", "?", ";", "%", "+", "=", "-", ">", "~", "$"],
+        "err_msgs": {
+            "bot_missing_perm": {
+                "manage_msgs_eng": "**Something went wrong! Cannot work properly, missing permission: MANAGE_MESSAGES**",
+                "manage_msgs_ua": "**Щось пішло не так! Я не можу працювати правильно, бракує дозволу: MANAGE_MESSAGES**",
+                "moderate_members_eng": "**Something went wrong! Cannot work properly, missing permission: MODERATE_MEMBERS**",
+                "moderate_members_ua": "**Щось пішло не так! Я не можу працювати правильно, бракує дозволу: MODERATE_MEMBERS**"
+            },
+            "user_missing_perm": {
+                "administrator_eng": "**You cannot use this command, missing permission: ADMINISTRATOR**",
+                "administrator_ua": "**Ви не можете використовувати цю команду, бракує дозволу: ADMINISTRATOR**"
+            }
+        }
+    }
+}
